@@ -1,0 +1,24 @@
+{
+	"defaultCommandTimeout": 8000,
+	"modifyObstructiveCode": true,
+	"experimentalSourceRewriting": true,
+	"chromeWebSecurity": false,
+	"baseUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+
+	"env": {
+		"url": "http://www.way2automation.com/angularjs-protractor/banking/#/login"
+	},
+	"retries": {
+		"runMode": 0,
+		"openMode": 0
+	},
+	"projectId": "86v319",
+	"video": true,
+	"ignoreTestFiles": "**/*.feature",
+	"experimentalStudio": true,
+
+	"reporter": "cypress-multi-reporters",
+	"reporterOptions": {
+		"configFile": "reporter-config.json"
+	}
+}

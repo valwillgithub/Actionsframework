@@ -1,0 +1,268 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 5,
+    "passes": 3,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-08-09T14:32:32.877Z",
+    "end": "2021-08-09T14:33:11.309Z",
+    "duration": 26375,
+    "testsRegistered": 5,
+    "passPercent": 60,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0217800e-7c3d-4b1c-bf39-b49eab7f0966",
+      "title": "",
+      "fullFile": "cypress/integration/testcases/AddNewCustomerTest.spec.js",
+      "file": "cypress/integration/testcases/AddNewCustomerTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0a034c05-12c1-4cb9-a511-695b583a3ddc",
+          "title": "Add New Customer TestSuite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add New Customer Testcase",
+              "fullTitle": "Add New Customer TestSuite Add New Customer Testcase",
+              "timedOut": null,
+              "duration": 12083,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\naddCust.addCustomerDetails(data.firstname, data.lastname, data.postcode); //verifyAlert1(data.alertmsgAddCustomer);",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `button[type='submitVal']`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `button[type='submitVal']`, but never found it.\n    at AddCustomerPageElements.addCustomerSubmit (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\AddNewCustomerTest.spec.js:379:15)\n    at AddCustomerPageActions.addCustomerDetails (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\AddNewCustomerTest.spec.js:275:17)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\AddNewCustomerTest.spec.js:153:13)",
+                "diff": null
+              },
+              "uuid": "817f4617-2405-457b-9cf6-dd2016762eed",
+              "parentUUID": "0a034c05-12c1-4cb9-a511-695b583a3ddc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "817f4617-2405-457b-9cf6-dd2016762eed"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 12083,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1ae1d3ec-4884-4218-a7a7-0461cb460bd1",
+      "title": "",
+      "fullFile": "cypress/integration/testcases/BankManagerLoginTest.spec.js",
+      "file": "cypress/integration/testcases/BankManagerLoginTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "38b42d9a-1d86-4915-829f-f4403f56ebf8",
+          "title": "Login As Bank Manager Testcase",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate Title of the Page",
+              "fullTitle": "Login As Bank Manager Testcase Validate Title of the Page",
+              "timedOut": null,
+              "duration": 1607,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "1c0dc134-a999-4af8-9bfa-b20e543db2d6",
+              "parentUUID": "38b42d9a-1d86-4915-829f-f4403f56ebf8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Login As Bank Manager",
+              "fullTitle": "Login As Bank Manager Testcase Verify Login As Bank Manager",
+              "timedOut": null,
+              "duration": 840,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();",
+              "err": {},
+              "uuid": "6b55e77f-9c72-4664-94be-776158f30740",
+              "parentUUID": "38b42d9a-1d86-4915-829f-f4403f56ebf8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Login As Customer",
+              "fullTitle": "Login As Bank Manager Testcase Verify Login As Customer",
+              "timedOut": null,
+              "duration": 469,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsCustomer();",
+              "err": {},
+              "uuid": "b5dc6afd-6194-4308-9d38-9d4e1894f007",
+              "parentUUID": "38b42d9a-1d86-4915-829f-f4403f56ebf8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1c0dc134-a999-4af8-9bfa-b20e543db2d6",
+            "6b55e77f-9c72-4664-94be-776158f30740",
+            "b5dc6afd-6194-4308-9d38-9d4e1894f007"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2916,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a211742d-386b-4959-bdf5-149fb9f14b38",
+      "title": "",
+      "fullFile": "cypress/integration/testcases/OpenAccountTest.spec.js",
+      "file": "cypress/integration/testcases/OpenAccountTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5b624455-a80f-4d12-bbc8-2dc09828240e",
+          "title": "Open Account TestSuite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open Account Testcase",
+              "fullTitle": "Open Account TestSuite Open Account Testcase",
+              "timedOut": null,
+              "duration": 11376,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\naddCust.addCustomerDetails(data.firstname, data.lastname, data.postcode); //verifyAlert1(data.alertmsgAddCustomer);\nopenaccount.openAccount(data.customer, data.currencyToSelect); //openaccount.verifyAlert1(data.accountalert);\n//verifyAlert1(data.accountalert);",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `button[type='submitVal']`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 8000ms: Expected to find element: `button[type='submitVal']`, but never found it.\n    at AddCustomerPageElements.addCustomerSubmit (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\OpenAccountTest.spec.js:428:15)\n    at AddCustomerPageActions.addCustomerDetails (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\OpenAccountTest.spec.js:281:17)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\OpenAccountTest.spec.js:156:13)",
+                "diff": null
+              },
+              "uuid": "891349dd-ee69-4951-b574-abb506567897",
+              "parentUUID": "5b624455-a80f-4d12-bbc8-2dc09828240e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "891349dd-ee69-4951-b574-abb506567897"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 11376,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "timestamp": "ddmmyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

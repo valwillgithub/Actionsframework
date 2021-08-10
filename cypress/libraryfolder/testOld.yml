@@ -1,0 +1,22 @@
+name: End-to-end tests
+# push event
+on: 
+  push:
+    branches: [ main ]
+
+# workflow triggered    
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node14.16.0-chrome90-ff88
+
+# steps -> sequence of tasks
+    steps:
+      - name: Execute Action Checkout Repository
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v2
+        with: 
+          command: npm run actions
