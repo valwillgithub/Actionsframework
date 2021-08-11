@@ -2,7 +2,7 @@ name: End-to-end tests
 # push event
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 # workflow triggered
 jobs:
