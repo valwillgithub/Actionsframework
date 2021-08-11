@@ -1,3 +1,8 @@
 [ {
-  "data" : { }
+  "buildOrder" : 9,
+  "reportUrl" : "https://valwillgithub.github.io/Actionsframework/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 2
+  }
 } ]
