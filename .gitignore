@@ -11,4 +11,3 @@ allure-report/
 .DS_Store
 public/
 mochawesome-report/
-package-lock.json
