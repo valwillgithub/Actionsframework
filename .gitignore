@@ -3,6 +3,7 @@
 cypress/results/specs/*
 cypress/videos/
 cypress/reports/
+cypress/screenshots/
 cypress/cucumber-json/
 node_modules/
 allure-results/
