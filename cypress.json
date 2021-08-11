@@ -1,26 +1,23 @@
 {
-	"defaultCommandTimeout": 8000,
-	"modifyObstructiveCode": true,
-	"experimentalSourceRewriting": true,
-	"chromeWebSecurity": false,
-	"baseUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
-	"reporter": "mochawesome",
-	"reporterOptions": {
-		"overwrite": false,
-		"html": false,
-		"json": true,
-		"charts": true,
-		"timestamp": "ddmmyyyy_HHMMss"
-	},
-	"env": {
-		"url": "http://www.way2automation.com/angularjs-protractor/banking/#/login"
-	},
-	"retries": {
-		"runMode": 0,
-		"openMode": 0
-	},
-	"projectId": "86v319",
-	"video": true,
-	"ignoreTestFiles": "**/*.feature",
-	"experimentalStudio": true
+  "defaultCommandTimeout": 8000,
+  "modifyObstructiveCode": true,
+  "experimentalSourceRewriting": true,
+  "chromeWebSecurity": false,
+  "baseUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+  "reporter": "allure",
+  "reporterOptions": {
+    "outputDir": "allure-results",
+    "disableWebdriverScreenshotsReporting": false
+  },
+  "env": {
+    "url": "http://www.way2automation.com/angularjs-protractor/banking/#/login"
+  },
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "projectId": "86v319",
+  "video": true,
+  "ignoreTestFiles": "**/*.feature",
+  "experimentalStudio": true
 }
