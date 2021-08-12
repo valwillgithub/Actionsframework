@@ -1,8 +1,8 @@
 [ {
-  "buildOrder" : 9,
-  "reportUrl" : "https://valwillgithub.github.io/Actionsframework/9/",
+  "buildOrder" : 10,
+  "reportUrl" : "https://valwillgithub.github.io/Actionsframework/10/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "duration" : 28471
+    "duration" : 29387
   }
 } ]

@@ -1,101 +1,51 @@
 [ {
-  "uid" : "1258ae0b6db042b2",
-  "name" : "Add New Customer Testcase",
-  "time" : {
-    "start" : 1628700403447,
-    "stop" : 1628700408260,
-    "duration" : 4813
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5027935a26351",
+  "uid" : "e0c7006c903086ce",
   "name" : "Verify Login As Customer",
   "time" : {
-    "start" : 1628700415213,
-    "stop" : 1628700415790,
+    "start" : 1628727572614,
+    "stop" : 1628727573191,
     "duration" : 577
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5a28cfb3a2379f4b",
-  "name" : "Verify Login As Bank Manager",
-  "time" : {
-    "start" : 1628700414284,
-    "stop" : 1628700415212,
-    "duration" : 928
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc631a40340f8e62",
-  "name" : "Verify Login As Customer",
-  "time" : {
-    "start" : 1628700415221,
-    "stop" : 1628700415804,
-    "duration" : 583
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93099ab8ba0f458a",
-  "name" : "Validate Title of the Page",
-  "time" : {
-    "start" : 1628700412415,
-    "stop" : 1628700414284,
-    "duration" : 1869
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12af07c3609007a1",
-  "name" : "Open Account Testcase",
-  "time" : {
-    "start" : 1628700419715,
-    "stop" : 1628700431917,
-    "duration" : 12202
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "b39597cfc5b0e0c8",
+  "uid" : "c1976389a6bdcc6f",
   "name" : "Add New Customer Testcase",
   "time" : {
-    "start" : 1628700403452,
-    "stop" : 1628700408275,
-    "duration" : 4823
+    "start" : 1628727560422,
+    "stop" : 1628727565335,
+    "duration" : 4913
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fc75874aac8f6710",
-  "name" : "Open Account Testcase",
-  "time" : {
-    "start" : 1628700419718,
-    "stop" : 1628700431918,
-    "duration" : 12200
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f41c645b465ac5f",
-  "name" : "Validate Title of the Page",
-  "time" : {
-    "start" : 1628700412403,
-    "stop" : 1628700414253,
-    "duration" : 1850
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eece1d62ceaa1efd",
+  "uid" : "a9fb0188da15d40d",
   "name" : "Verify Login As Bank Manager",
   "time" : {
-    "start" : 1628700414261,
-    "stop" : 1628700415206,
-    "duration" : 945
+    "start" : 1628727571499,
+    "stop" : 1628727572608,
+    "duration" : 1109
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c2c022d7378678d",
+  "name" : "Validate Title of the Page",
+  "time" : {
+    "start" : 1628727569508,
+    "stop" : 1628727571491,
+    "duration" : 1983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c6c7b93d2ff553",
+  "name" : "Open Account Testcase",
+  "time" : {
+    "start" : 1628727577279,
+    "stop" : 1628727589809,
+    "duration" : 12530
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

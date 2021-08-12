@@ -1,12 +1,12 @@
 {
-  "uid" : "5f41c645b465ac5f",
+  "uid" : "7c2c022d7378678d",
   "name" : "Validate Title of the Page",
   "fullName" : "Validate Title of the Page",
   "historyId" : "5efdeb98977602b913b63769c859a25c",
   "time" : {
-    "start" : 1628700412403,
-    "stop" : 1628700414253,
-    "duration" : 1850
+    "start" : 1628727569508,
+    "stop" : 1628727571491,
+    "duration" : 1983
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,16 +17,16 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1628700412405,
-        "stop" : 1628700414252,
-        "duration" : 1847
+        "start" : 1628727569509,
+        "stop" : 1628727571490,
+        "duration" : 1981
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "log (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628700412438,
-          "stop" : 1628700412442,
+          "start" : 1628727569534,
+          "stop" : 1628727569538,
           "duration" : 4
         },
         "status" : "passed",
@@ -40,9 +40,9 @@
       }, {
         "name" : "visit (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628700412442,
-          "stop" : 1628700414251,
-          "duration" : 1809
+          "start" : 1628727569538,
+          "stop" : 1628727571489,
+          "duration" : 1951
         },
         "status" : "passed",
         "steps" : [ ],
@@ -55,8 +55,8 @@
       }, {
         "name" : "request",
         "time" : {
-          "start" : 1628700414251,
-          "stop" : 1628700414251,
+          "start" : 1628727571489,
+          "stop" : 1628727571489,
           "duration" : 0
         },
         "status" : "passed",
@@ -114,6 +114,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f41c645b465ac5f.json",
+  "source" : "7c2c022d7378678d.json",
   "parameterValues" : [ ]
 }
