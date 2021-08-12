@@ -4,11 +4,7 @@
   "experimentalSourceRewriting": true,
   "chromeWebSecurity": false,
   "baseUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
-  "reporter": "allure",
-  "reporterOptions": {
-    "outputDir": "allure-results",
-    "disableWebdriverScreenshotsReporting": false
-  },
+
   "env": {
     "url": "http://www.way2automation.com/angularjs-protractor/banking/#/login"
   },

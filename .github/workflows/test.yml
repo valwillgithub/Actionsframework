@@ -27,7 +27,7 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
-          command: npm run cyrun-old
+          command: npm run cyrun
         continue-on-error: true
 
       - name: Get Allure history
