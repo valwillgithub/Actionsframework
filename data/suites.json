@@ -4,13 +4,13 @@
     "name" : "Add New Customer TestSuite",
     "children" : [ {
       "name" : "Add New Customer Testcase",
-      "uid" : "c1976389a6bdcc6f",
+      "uid" : "c7a969c3766f8d7",
       "parentUid" : "14b14352ad4a5b14e0ae36d4365de0fb",
       "status" : "passed",
       "time" : {
-        "start" : 1628727560422,
-        "stop" : 1628727565335,
-        "duration" : 4913
+        "start" : 1628731096890,
+        "stop" : 1628731103615,
+        "duration" : 6725
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,39 +21,39 @@
     "name" : "Login As Bank Manager Testcase",
     "children" : [ {
       "name" : "Validate Title of the Page",
-      "uid" : "7c2c022d7378678d",
+      "uid" : "4c5e3cc0bd44b411",
       "parentUid" : "d9f1d52f4d936669baf42228ea64362e",
       "status" : "passed",
       "time" : {
-        "start" : 1628727569508,
-        "stop" : 1628727571491,
-        "duration" : 1983
+        "start" : 1628731108030,
+        "stop" : 1628731110358,
+        "duration" : 2328
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify Login As Bank Manager",
-      "uid" : "a9fb0188da15d40d",
+      "uid" : "60defb4330943393",
       "parentUid" : "d9f1d52f4d936669baf42228ea64362e",
       "status" : "passed",
       "time" : {
-        "start" : 1628727571499,
-        "stop" : 1628727572608,
-        "duration" : 1109
+        "start" : 1628731110367,
+        "stop" : 1628731110883,
+        "duration" : 516
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify Login As Customer",
-      "uid" : "e0c7006c903086ce",
+      "uid" : "8e76d036a4aaad31",
       "parentUid" : "d9f1d52f4d936669baf42228ea64362e",
       "status" : "passed",
       "time" : {
-        "start" : 1628727572614,
-        "stop" : 1628727573191,
-        "duration" : 577
+        "start" : 1628731110889,
+        "stop" : 1628731111373,
+        "duration" : 484
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,13 +64,13 @@
     "name" : "Open Account TestSuite",
     "children" : [ {
       "name" : "Open Account Testcase",
-      "uid" : "2c6c7b93d2ff553",
+      "uid" : "a995d84d2c1647e4",
       "parentUid" : "40e58b2d914bc868de0f744ec2d0b481",
       "status" : "failed",
       "time" : {
-        "start" : 1628727577279,
-        "stop" : 1628727589809,
-        "duration" : 12530
+        "start" : 1628731115333,
+        "stop" : 1628731127725,
+        "duration" : 12392
       },
       "flaky" : false,
       "newFailed" : false,

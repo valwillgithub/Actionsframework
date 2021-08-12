@@ -1,12 +1,12 @@
 {
-  "uid" : "e0c7006c903086ce",
-  "name" : "Verify Login As Customer",
-  "fullName" : "Verify Login As Customer",
-  "historyId" : "ab1708217cd95e6a4785cb8ca16c7e81",
+  "uid" : "60defb4330943393",
+  "name" : "Verify Login As Bank Manager",
+  "fullName" : "Verify Login As Bank Manager",
+  "historyId" : "11c5c8a18c6c06b1afbe11259c86c581",
   "time" : {
-    "start" : 1628727572614,
-    "stop" : 1628727573191,
-    "duration" : 577
+    "start" : 1628731110367,
+    "stop" : 1628731110883,
+    "duration" : 516
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1628727572615,
-        "stop" : 1628727572994,
-        "duration" : 379
+        "start" : 1628731110367,
+        "stop" : 1628731110770,
+        "duration" : 403
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "log (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628727572628,
-          "stop" : 1628727572630,
-          "duration" : 2
+          "start" : 1628731110387,
+          "stop" : 1628731110388,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -40,9 +40,9 @@
       }, {
         "name" : "visit (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628727572630,
-          "stop" : 1628727572993,
-          "duration" : 363
+          "start" : 1628731110388,
+          "stop" : 1628731110770,
+          "duration" : 382
         },
         "status" : "passed",
         "steps" : [ ],
@@ -60,26 +60,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "get (\"button[ng-click='customer()']\")",
+      "name" : "get (\"button[ng-click='manager()']\")",
       "time" : {
-        "start" : 1628727572995,
-        "stop" : 1628727573024,
-        "duration" : 29
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1628727573024,
-        "stop" : 1628727573024,
-        "duration" : 0
+        "start" : 1628731110771,
+        "stop" : 1628731110782,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +77,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1628727573024,
-        "stop" : 1628727573190,
-        "duration" : 166
+        "start" : 1628731110782,
+        "stop" : 1628731110882,
+        "duration" : 100
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,8 +92,23 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1628727573190,
-        "stop" : 1628727573190,
+        "start" : 1628731110881,
+        "stop" : 1628731110881,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1628731110881,
+        "stop" : 1628731110881,
         "duration" : 0
       },
       "status" : "passed",
@@ -159,6 +159,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e0c7006c903086ce.json",
+  "source" : "60defb4330943393.json",
   "parameterValues" : [ ]
 }

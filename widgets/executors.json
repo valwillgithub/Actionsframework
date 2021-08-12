@@ -2,9 +2,9 @@
   "name" : "GitHub Actions",
   "type" : "github",
   "url" : "https://valwillgithub.github.io/Actionsframework",
-  "buildOrder" : 10,
-  "buildName" : "GitHub Actions Run #1122084748",
-  "buildUrl" : "https://github.com/valwillgithub/Actionsframework/actions/runs/1122084748",
+  "buildOrder" : 11,
+  "buildName" : "GitHub Actions Run #1122214077",
+  "buildUrl" : "https://github.com/valwillgithub/Actionsframework/actions/runs/1122214077",
   "reportName" : "Allure Report with history",
-  "reportUrl" : "https://valwillgithub.github.io/Actionsframework/10/"
+  "reportUrl" : "https://valwillgithub.github.io/Actionsframework/11/"
 } ]

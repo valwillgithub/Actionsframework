@@ -1,12 +1,12 @@
 {
-  "uid" : "7c2c022d7378678d",
+  "uid" : "4c5e3cc0bd44b411",
   "name" : "Validate Title of the Page",
   "fullName" : "Validate Title of the Page",
   "historyId" : "5efdeb98977602b913b63769c859a25c",
   "time" : {
-    "start" : 1628727569508,
-    "stop" : 1628727571491,
-    "duration" : 1983
+    "start" : 1628731108030,
+    "stop" : 1628731110358,
+    "duration" : 2328
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,17 +17,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1628727569509,
-        "stop" : 1628727571490,
-        "duration" : 1981
+        "start" : 1628731108031,
+        "stop" : 1628731110356,
+        "duration" : 2325
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "log (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628727569534,
-          "stop" : 1628727569538,
-          "duration" : 4
+          "start" : 1628731108060,
+          "stop" : 1628731108065,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -40,9 +40,9 @@
       }, {
         "name" : "visit (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628727569538,
-          "stop" : 1628727571489,
-          "duration" : 1951
+          "start" : 1628731108065,
+          "stop" : 1628731110355,
+          "duration" : 2290
         },
         "status" : "passed",
         "steps" : [ ],
@@ -55,8 +55,38 @@
       }, {
         "name" : "request",
         "time" : {
-          "start" : 1628727571489,
-          "stop" : 1628727571489,
+          "start" : 1628731110355,
+          "stop" : 1628731110355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "http://www.way2automation.com/angularjs-protractor/banking/#/login request",
+        "time" : {
+          "start" : 1628731110355,
+          "stop" : 1628731110355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "http://www.way2automation.com/angularjs-protractor/banking/#/login request",
+        "time" : {
+          "start" : 1628731110355,
+          "stop" : 1628731110355,
           "duration" : 0
         },
         "status" : "passed",
@@ -70,7 +100,7 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 3,
+      "stepsCount" : 5,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
@@ -81,7 +111,7 @@
       "size" : 0
     } ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 6,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -114,6 +144,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7c2c022d7378678d.json",
+  "source" : "4c5e3cc0bd44b411.json",
   "parameterValues" : [ ]
 }
