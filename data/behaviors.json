@@ -2,65 +2,65 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Add New Customer Testcase",
-    "uid" : "ee2f7e86ba1fd39d",
+    "uid" : "9906bd187ebffc51",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1628731370651,
-      "stop" : 1628731376136,
-      "duration" : 5485
+      "start" : 1630117133162,
+      "stop" : 1630117138177,
+      "duration" : 5015
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Validate Title of the Page",
-    "uid" : "4f3c30d33a39bf72",
+    "uid" : "bb4f9e3e8fae8a84",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1628731380779,
-      "stop" : 1628731383117,
-      "duration" : 2338
+      "start" : 1630117142405,
+      "stop" : 1630117145008,
+      "duration" : 2603
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Verify Login As Bank Manager",
-    "uid" : "ce2d03db289a6eea",
+    "uid" : "2c52e2fd87e48290",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1628731383123,
-      "stop" : 1628731383598,
-      "duration" : 475
+      "start" : 1630117145017,
+      "stop" : 1630117145600,
+      "duration" : 583
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Verify Login As Customer",
-    "uid" : "b19e2f3a11b7bdda",
+    "uid" : "8dc289b56d4c0c0d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1628731383602,
-      "stop" : 1628731384035,
-      "duration" : 433
+      "start" : 1630117145604,
+      "stop" : 1630117146104,
+      "duration" : 500
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Open Account Testcase",
-    "uid" : "69228b2bd69334f4",
+    "uid" : "da4f33129c638c9e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1628731387881,
-      "stop" : 1628731400221,
-      "duration" : 12340
+      "start" : 1630117150003,
+      "stop" : 1630117162369,
+      "duration" : 12366
     },
     "flaky" : false,
     "newFailed" : false,

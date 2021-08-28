@@ -1,12 +1,12 @@
 {
-  "uid" : "b19e2f3a11b7bdda",
+  "uid" : "8dc289b56d4c0c0d",
   "name" : "Verify Login As Customer",
   "fullName" : "Verify Login As Customer",
   "historyId" : "ab1708217cd95e6a4785cb8ca16c7e81",
   "time" : {
-    "start" : 1628731383602,
-    "stop" : 1628731384035,
-    "duration" : 433
+    "start" : 1630117145604,
+    "stop" : 1630117146104,
+    "duration" : 500
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,108 +17,108 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1628731383602,
-        "stop" : 1628731383923,
-        "duration" : 321
+        "start" : 1630117145604,
+        "stop" : 1630117145969,
+        "duration" : 365
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "log (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628731383613,
-          "stop" : 1628731383620,
-          "duration" : 7
+          "start" : 1630117145614,
+          "stop" : 1630117145615,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "shouldDisplayMessage" : false
       }, {
         "name" : "visit (\"http://www.way2automation.com/angularjs-protractor/banking/#/login\")",
         "time" : {
-          "start" : 1628731383620,
-          "stop" : 1628731383923,
-          "duration" : 303
+          "start" : 1630117145615,
+          "stop" : 1630117145969,
+          "duration" : 354
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "stepsCount" : 0,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "stepsCount" : 2,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"button[ng-click='customer()']\")",
       "time" : {
-        "start" : 1628731383924,
-        "stop" : 1628731383952,
-        "duration" : 28
+        "start" : 1630117145971,
+        "stop" : 1630117146022,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1628731383952,
-        "stop" : 1628731383952,
+        "start" : 1630117146022,
+        "stop" : 1630117146022,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1628731383952,
-        "stop" : 1628731384035,
-        "duration" : 83
+        "start" : 1630117146022,
+        "stop" : 1630117146103,
+        "duration" : 81
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1628731384035,
-        "stop" : 1628731384035,
+        "start" : 1630117146103,
+        "stop" : 1630117146103,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
       "name" : "testcases/BankManagerLoginTest.spec.js.mp4",
@@ -126,10 +126,10 @@
       "size" : 0
     } ],
     "parameters" : [ ],
+    "hasContent" : true,
     "stepsCount" : 7,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "time" : { },
@@ -137,10 +137,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "suite",
@@ -159,6 +159,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b19e2f3a11b7bdda.json",
+  "source" : "8dc289b56d4c0c0d.json",
   "parameterValues" : [ ]
 }

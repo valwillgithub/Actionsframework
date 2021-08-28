@@ -6,13 +6,13 @@
       "name" : "Timed out retrying after 8000ms: Expected to find element: `button[type='submitVAL']`, but never found it.",
       "children" : [ {
         "name" : "Open Account Testcase",
-        "uid" : "69228b2bd69334f4",
+        "uid" : "da4f33129c638c9e",
         "parentUid" : "a858d70f2e9e42cae5f5746068a0ce16",
         "status" : "failed",
         "time" : {
-          "start" : 1628731387881,
-          "stop" : 1628731400221,
-          "duration" : 12340
+          "start" : 1630117150003,
+          "stop" : 1630117162369,
+          "duration" : 12366
         },
         "flaky" : false,
         "newFailed" : false,
